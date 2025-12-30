@@ -1,0 +1,21 @@
+# Linux系统配置文件
+# 复制此文件为config.txt以在Linux系统上使用
+
+device = 0
+width = 960
+height = 540
+min_detection_confidence = 0.7
+min_tracking_confidence = 0.5
+buffer_len = 5
+is_keyboard = True
+px4_connection_string = udp:127.0.0.1:14550
+
+# Linux特定配置
+# 摄像头设备路径 (如果需要指定特定设备)
+# camera_device = /dev/video0
+
+# PX4日志目录 (如果安装了PX4)
+# px4_log_dir = ~/px4_ws/PX4-Autopilot/build/px4_sitl_default/logs
+
+# 系统编码
+# system_encoding = utf-8
